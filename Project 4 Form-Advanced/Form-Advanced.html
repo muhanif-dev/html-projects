@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level7_advanced_form.html</title>
+</head>
+<body>
+    <!--1. Create `level7_advanced_form.html`.
+2. Add a `<select>` country dropdown with at least one `<optgroup>` for grouped options.
+3. Add `<datalist>` + `<input list="...">` for searchable suggestions.
+4. Add `<input type="file">` for CV upload.
+5. Add `<input type="color">` and `<input type="range">` with min/max.
+6. Add `<input type="search">` for searching skills.
+7. Add a submit button and test each control (file picking, color picker, range slider UI).-->
+    <h1>level7_advanced_form</h2>
+  <form action="#" method="post" enctype="multipart/form-data">
+            <label for="country">Country:-</label>
+            <select name="country" id="country">
+                <optgroup label="Asia">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                </optgroup>
+                <optgroup label="UK">
+                    <option value="United State">United State</option>
+                    <option value="Germany">Germany</option>
+                </optgroup>
+            </select><br>
+            <hr>
+
+
+    <label for="skill">Skill(suggestions):</label>
+    <input list="skills" name="skill" id="skill">
+    <datalist id="skills">
+        <option value="CSS">
+        <option value="HTML">
+        <option value="JS">
+        <option value="C++">
+    </datalist>
+    <hr>
+    <label for="CV">Upload CV</label>
+    <input type="file" name="" id="">
+    <hr>
+
+    <label for="favcolor">Choose Favorite Color</label><br>
+    <input type="color" name="color" id="color" value="#04AA6D">
+    <hr>
+    <label for="salary">Expacted Salary:</label><br>
+    <input type="range" name="salary" id="salary"  value="15000" max="50000">
+<hr>
+<label for="search">Search Your Skill:</label><br>
+<input type="search" name="search" id="search"><hr>
+<button type="Submit">Apply</button>
+<button type="reset">Reset</button>
+</form>
+</body>
+</html>
