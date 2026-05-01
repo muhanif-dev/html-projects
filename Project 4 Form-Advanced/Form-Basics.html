@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 6 — Forms (basic): labels, fieldset, legend, radio, checkbox, textarea</title>
+</head>
+<body>
+    <!--1. Create `level6_basic_form.html`.
+2. Add `<form method="post" action="#">`.
+3. Add a `<fieldset>` with `<legend>Personal Info</legend>`.
+4. Add labeled inputs for Full Name (`type="text"`), Email (`type="email"`), and Password (`type="password"`) with `id` and `for`.
+5. Add a second `<fieldset>` with radio buttons for Gender (same `name`) and checkboxes for Hobbies.
+6. Add a `<textarea>` for a message and add Submit (`type="submit"`) and Reset (`type="reset"`) buttons.
+7. Save and try filling fields (browser validation will appear for required types).-->
+    <h2>Level 6 — Forms (basic): labels, fieldset, legend, radio, checkbox, textarea</h2>
+    <form method="post" action="#">
+        <fieldset>
+            <legend>Perosnal Information</legend>
+            <label for="Full Name">Full Name *</label>
+            <input type="text" name="Full Name" id="fullname" required><br>
+            <label for="Email">Email *</label><br>
+            <input type="email" name="Email" id="email"><br>
+            <label for="Password">Password *</label><br>
+            <input type="password" name="Password" id="password" required>
+        </fieldset>
+        <fieldset>
+
+                 <legend>Details</legend>
+                 <strong>Gender</strong><br>
+                 <input type="radio" name="Gender" id="male" value="male">
+                 <label for="Male">Male</label>
+                 <input type="radio" name="Gender" id="female" value="female">
+                 <label for="female">Famale</label>
+                 <input type="radio" name="Gender" id="other" value="other">
+                 <label for="Other">Other</label><br>
+                 
+                 <strong>Hobbies</strong><br>
+                 <input type="checkbox" name="Gardening" id="Gardening" value="Gardening">
+                   <label for="Gardening">Gardening</label>
+                   <input type="checkbox" name="Painting" id="Painting" value="Painting">
+                   <label for="Painting">Painting</label>
+                   <input type="checkbox" name="other" id="other">
+                   <label for="other">Other</label>
+        </fieldset>
+        <fieldset>
+            <legend>Message</legend>
+            <textarea name="Message" id="message" cols="32" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" name="submit" id="submit" value="Submit">
+        <input type="reset" name="Reset" id="reset">
+      <!--  <button type="submit">Submit</button>-->
+    </form>
+</body>
+</html>
