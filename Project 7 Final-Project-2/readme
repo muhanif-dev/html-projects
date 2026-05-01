@@ -1,1 +1,41 @@
+# Personal Portfolio Project (HTML + CSS)
 
+## 📌 Project Overview
+This is my final portfolio project built using HTML and a little bit of CSS. The purpose of this project is to create a simple, clean, and responsive personal portfolio website that showcases my skills, education, and projects.
+
+---
+
+## 📚 What You Will Learn
+In this project, you will learn:
+
+- How to build a personal portfolio website using HTML and CSS
+- How to style a webpage using basic CSS
+- How to create layouts using divs and sections
+- How to design navigation menus
+- How to improve visual presentation of a website
+
+---
+
+## 🧪 Features of This Project
+- Home section with introduction
+- About Me section
+- Education details section
+- Skills section with simple styling
+- Projects showcase section
+- Contact section
+- Navigation bar for smooth scrolling
+- Basic CSS styling for better UI
+
+---
+
+## 🎨 CSS Features Used
+- Colors and background styling
+- Font styling and text alignment
+- Margins and padding
+- Borders and simple layout design
+- Hover effects on links (basic)
+- Section-wise styling for better structure
+
+---
+
+## 📁 Project Structure
