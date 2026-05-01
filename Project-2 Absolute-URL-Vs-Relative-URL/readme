@@ -1,1 +1,15 @@
+# Absolute and Relative URL Project (HTML)
 
+## Project Overview
+This project demonstrates the difference between **Absolute URLs** and **Relative URLs** using simple HTML examples. It helps beginners understand how links work in web development.
+
+---
+
+## What are URLs?
+
+### 🔹 Absolute URL
+An Absolute URL is the full web address that includes the protocol (https://), domain name, and path.
+
+**Example:**
+```html
+<a href="https://www.google.com">Go to Google</a>
